@@ -14,7 +14,7 @@ public class Hooks {
 
     @Before
     public void setUp(Scenario scenario) {
-        boolean headless = Boolean.parseBoolean(System.getProperty("headless", "true"));
+        boolean headless = Boolean.parseBoolean(System.getProperty("headless", "false"));
 
         Playwright playwright = Playwright.create();
         Browser browser = playwright.chromium().launch(
