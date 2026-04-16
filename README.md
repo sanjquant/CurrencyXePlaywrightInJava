@@ -3,7 +3,7 @@
 This project is a Java/Cucumber conversion of the original Python repository:
 `CurrencyXePlaywrightInPython`.
 
-## What it keeps from the Python repo
+## What's in here:
 
 - Reads conversion test data from CSV
 - Opens the XE Currency Converter page
